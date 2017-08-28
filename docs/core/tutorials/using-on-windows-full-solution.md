@@ -47,7 +47,7 @@ Befolgen Sie die Anweisungen auf [unserer Seite über erforderliche Komponenten]
 
 1. Öffnen Sie in Projektmappen-Explorer das Kontextmenü des Knotens **Projektmappe**, und wählen Sie **Hinzufügen** > **Neues Projekt** aus. Wählen Sie im Dialogfeld **Neues Projekt** unter **Visual C#/.NET Core** die Option **Komponententestprojekt (.NET Core)** aus. Nennen Sie sie „Testbibliothek“, und klicken Sie auf „OK“. 
 
-2. Öffnen Sie im Projekt **Testbibliothek** das Kontextmenü des Knotens **Abhängigkeiten**, und wählen Sie **Verweis hinzufügen** aus. Klicken Sie auf **Projekte**, überprüfen Sie das Projekt „Bibliothek“, und klicken Sie auf „OK“. Dadurch wird einen Verweis auf die Bibliothek aus dem Testprojekt hinzugefügt.
+2. Öffnen Sie im Projekt **Testbibliothek** das Kontextmenü des Knotens **Abhängigkeiten**, und wählen Sie **Verweis hinzufügen** aus. Klicken Sie auf **Projekte**, überprüfen Sie das Projekt „Library“, und klicken Sie auf „OK“. Dadurch wird einen Verweis auf die Bibliothek aus dem Testprojekt hinzugefügt.
 
 3. Benennen Sie die Datei `UnitTest1.cs` in `LibraryTests.cs` um, und übernehmen Sie die Klassenumbenennung. Fügen Sie oben in der Datei `using Library;` hinzu, und ersetzen Sie die `TestMethod1`-Methode durch den folgenden Code:
     ```csharp
@@ -60,7 +60,7 @@ Befolgen Sie die Anweisungen auf [unserer Seite über erforderliche Komponenten]
 
    Sie sollten nun die Projektmappe erstellen können. 
    
-4. Wählen Sie im Menü **Testen** zunächst **Windows** und dann **Test-Explorer** aus, um das Test-Explorer-Fenster in Ihrem Arbeitsbereich zu öffnen. Nach wenigen Sekunden sollte der Test `ThingGetsObjectValFromNumber` im Test-Explorer angezeigt werden. Wählen Sie **Alle ausführen** aus.
+4. Wählen Sie im Menü **Test** zunächst **Fenster** und dann **Test-Explorer** aus, um das Test-Explorer-Fenster in Ihrem Arbeitsbereich zu öffnen. Nach wenigen Sekunden sollte der Test `ThingGetsObjectValFromNumber` im Test-Explorer angezeigt werden. Wählen Sie **Alle ausführen** aus.
    
    Der Test sollte erfolgreich verlaufen.
 
